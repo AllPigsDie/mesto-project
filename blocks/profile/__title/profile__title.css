@@ -5,5 +5,18 @@
     line-height: 48px;
     color: #FFFFFF;
     margin: 0;
-    padding: 0;
+    max-width: 294px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    grid-area: title;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__name {
+        max-width: 189px;
+        font-size: 27px;
+        line-height: 33px;
+        text-align: center;
     }
+}

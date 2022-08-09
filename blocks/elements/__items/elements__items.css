@@ -1,11 +1,15 @@
-.elements {
+.elements__items {
     max-width: 880px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
+    padding: 0;
+    gap: 20px 17px;
 }
 
 @media screen and (max-width: 767px) {
-    .elements {
+    .elements__items {
         max-width: 282px;
     }
 }
