@@ -1,0 +1,229 @@
+.page {
+    background-color: #000000;
+    max-width: 1280px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 880px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 41px;
+    border-bottom: 1px solid rgb(84,84,84);
+}
+
+.profile {
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+max-width: 880px;
+padding-top: 40px;
+}
+
+.profile__about {
+    display: flex;
+}
+
+.profile__avatar {
+max-width: 120px;
+max-height: 120px;
+border-radius: 50%;
+}
+
+.profile__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 336px;
+    margin-left: 30px;
+}
+
+.profile__name {
+    display: flex;
+}
+
+.profile__title {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 48px;
+color: #FFFFFF;
+margin: 0;
+padding: 0;
+}
+
+.profile__description {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+margin: 16px 0 0;
+padding: 0;
+}
+
+.profile__edit-button {
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    margin-left: 18px;
+}
+
+.profile__add-button {
+    width: 150px;
+    height: 50px;
+    align-self: center;
+}
+
+.element__items {
+    display: grid;
+    grid-template-columns: repeat(3, 282px);
+    gap: 20px 17px;
+    margin: 0 auto;
+    padding-left: 0;
+    max-width: 880px;
+    padding-top: 51px;
+}
+
+.element__item {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.element__image {
+    max-width: 282px;
+    max-height: 282px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.element__name {
+    background-color: #FFFFFF;
+    max-width: 282px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.element__title {
+    font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin-top: 25px;
+margin-bottom: 31px;
+margin-left: 21px;
+text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.element__like-button {
+    max-width: 22px;
+    max-height: 19px;
+    margin-top: 30px;
+    margin-bottom: 29px;
+    margin-right: 30px;
+}
+
+.popup {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popup__container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 430px;
+    width: 100%;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+.popup__title {
+    font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin: 0;
+    padding: 34px 64px 54px 36px;
+}
+
+.popup__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup__input {
+    padding: 0 0 13px;
+    margin: 0 36px 30px 36px;
+    max-width: 358px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.popup__input:last-of-type {
+    margin-bottom: 0;
+}
+
+.popup__save-button {
+    padding: 14px 125px;
+    margin: 48px 36px 37px 36px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    max-width: 358px;
+}
+
+.popup__close-button {
+    position: absolute;
+    top: -39px;
+    right: -39px;
+    cursor: pointer;
+    border: none;
+    max-width: 32px;
+    width: 100%;
+    min-height: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    margin: 0 auto;
+    max-width: 880px;
+}
+
+.footer__copyright {
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #545454;
+}
