@@ -1,7 +1,7 @@
 .popup__close-button {
     position: absolute;
-    top: 190px;
-    right: 470px;
+    top: -39px;
+    right: -39px;
     cursor: pointer;
     border: none;
     max-width: 32px;

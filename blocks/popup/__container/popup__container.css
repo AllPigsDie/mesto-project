@@ -8,6 +8,7 @@
     box-sizing: border-box;
     position: relative;
     display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 767px) {
