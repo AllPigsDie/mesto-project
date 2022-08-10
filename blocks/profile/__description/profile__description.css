@@ -4,7 +4,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    margin: 16px 0 0;
+    margin: 0 auto;
     max-width: 336px;
     grid-area: discr;
     white-space: nowrap;
@@ -17,6 +17,6 @@
         font-size: 14px;
         line-height: 17px;
         text-align: center;
-        margin: 14px 0 0;
+        max-width: 282px;
     }
 }
