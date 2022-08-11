@@ -1,26 +1,26 @@
 .profile__description {
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    margin: 0;
-    max-width: 336px;
-    grid-area: discr;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 16px;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  overflow: hidden;
+  max-width: 336px;
 }
-
-@media screen and (max-width: 767px) {
+  
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     .profile__description {
-        font-size: 14px;
-        line-height: 17px;
-        max-width: 282px;
-        text-align: center;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      min-width: 158px;
+      padding-left: 0px;   
+      padding-top: 14px;
     }
-}
+  }
 
-/* К сожалению я не понимаю как правильно отцентрировать текст, я много что перепробовал, но у меня не получается((
-    мой дедлайн подходит к концу и, если бы вы могли закрыть на это глаза, я был бы вам очень благодарен!
-    Мне кажется по сравнению со всем остальным проектом это не большое упущение)*/

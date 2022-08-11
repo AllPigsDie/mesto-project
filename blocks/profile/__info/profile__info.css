@@ -1,18 +1,10 @@
 .profile__info{
-    display: grid;
-    grid-template-areas: "title editbutton" "discr .";
-    grid-template-columns: 1fr min-content;
-    column-gap: 18px;
-    align-items: baseline;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
     .profile__info {
-        max-width: 282px;
-        margin-bottom: 36px;
+        margin-right: 0;
     }
 }
 
-/* К сожалению я не понимаю как правильно отцентрировать текст, я много что перепробовал, но у меня не получается((
-    мой дедлайн подходит к концу и, если бы вы могли закрыть на это глаза, я был бы вам очень благодарен!
-    Мне кажется по сравнению со всем остальным проектом это не большое упущение)*/
