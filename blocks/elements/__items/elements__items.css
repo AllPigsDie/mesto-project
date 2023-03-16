@@ -9,6 +9,13 @@
     list-style-type: none;
 }
 
+@media screen and (max-width: 879px) {
+    .elements__items {
+       justify-content: center;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
     .elements__items {
         max-width: 282px;
