@@ -21,5 +21,6 @@ GridLayout
 Работа с макетом Figma 
 Медиазапросы
 Разметка и вёрстка форм
+JavaScript
 
 Github Pages: https://allpigsdie.github.io/mesto-project/
