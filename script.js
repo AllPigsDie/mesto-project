@@ -150,7 +150,7 @@ function handleFormPlace(e) {
 
 formAdd.addEventListener("submit", handleFormPlace);
 
-//---Исходные карточек
+//---Исходные карточки
 
 initialCards.forEach(function (initialCards) {
     addCard(initialCards.link, initialCards.name);
